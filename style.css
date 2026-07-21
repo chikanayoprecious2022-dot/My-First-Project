@@ -1,0 +1,160 @@
+a{
+    color: blueviolet;
+    text-decoration: none;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+}
+
+  
+.link a{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 26px;
+    color:aquamarine;
+    font-family: Arial;
+}
+.get{
+    padding: 12px 14px;
+    border-radius: 24px;
+    background-color: cornflowerblue;
+    color: maroon;
+    cursor: pointer;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+.get:hover{
+    background-color: rebeccapurple;
+    color: burlywood;
+    transition: 0.4s ease-in-out;
+}
+.home{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+
+    padding: 14px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: left;
+}
+.hero h1{
+    font-size: 56px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.hero p{font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+.hero button{
+    font-size: 16px;
+    padding: 12px 28px;
+}
+.btn{
+   margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(46, 253, 219);
+    color: rgb(76, 36, 189);
+    font-weight: bold;
+    border-radius: 24px;
+}
+.cleaning h1{
+    color:#0f4c75;
+    margin-bottom: 15px;
+}
+.cleaning h2{
+    color: #1b262c;
+     margin-top: 25px;
+     margin-bottom: 10px;
+}
+.cleaning ol{
+    background: white;
+    padding:15px 15px 15px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: rgb(180, 64, 184);
+    color: rgb(255, 240, 250);
+    transition: 0.4s ease-in-out;
+}
+.services{
+    background-color: blanchedalmond;
+    table{
+        width: 70%;
+        border-collapse: collapse;
+        margin-top:20px;
+        background: white;
+        margin: 20px;
+        padding-bottom: 0;
+        border: none;
+    }
+    th{
+        color: white;
+        background:#3f32b8;
+        padding: 12px;
+        border: 1px solid black;
+        text-align: left;
+        font-size: bold;
+        font-size:30px;
+    }
+    th: last-child,
+    td: last-child{
+        border-right: none
+    }
+    tr:last-child td{
+        border-bottom:none;
+    }
+
+    td{
+        border-bottom: 1px solid #dddddd;
+        text-align: center;
+        border-right: 1px solid;
+        padding: 6px;
+        font-size: 20px;
+
+    }
+}
+.services h3{
+    font-size: 30px;
+}
+.cleaning{
+    margin: 0;
+    padding: 20px;
+}
+.book{
+    background-color: blanchedalmond;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+
+.form-container{
+    width: 350px;
+    margin: 50px;
+
+}
+footer{
+    background-color: beige;
+}
+
+
+
